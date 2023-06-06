@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {"name": "Coors Field"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.428683, 37.466513]
+        }
+    },{
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.440624, 37.541885]
+        }
+    }]
+}
