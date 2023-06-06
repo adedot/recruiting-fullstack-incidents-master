@@ -1,2 +1,11 @@
 .idea/*
 node_modules/*
+.vscode/
+env/
+.DS_Store
+__pycache__/
+.coverage
+htmlcov/
+cosign.*
+key.pub
+.env

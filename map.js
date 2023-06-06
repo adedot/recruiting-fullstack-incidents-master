@@ -17,7 +17,7 @@ var map = L.map('map', {
   ]
 });
 
-$.getJSON('data.geo.json', function (geojson) {
+$.getJSON('data.geojson', function (geojson) {
   L.geoJson(geojson, {
     onEachFeature: function (feature, layer) {
       layer.bindPopup(feature.properties.name);
