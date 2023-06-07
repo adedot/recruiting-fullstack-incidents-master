@@ -1,3 +1,6 @@
+###
+
+
 
 ## Generate geojson
 1. `python3 -m venv env`
@@ -53,9 +56,13 @@ Incident Map
 ![Sign into Trino Homepage through Postman](leaflet-map-example.png)
 
 
-# TODO
+# Improvements/TODO items if given more time
 
-    Refactor repeating code
-    Add car incident as a polygon possibly
-    Create Rest Api using fast api
-    Data analysis of incidents using python
+    If I was given more time, I would do the following: 
+
+        * Refactor repeating code
+        * Add car incident as a polygon possibly
+        * Create Rest Api using fast api
+        * Data analysis of incidents using python
+
+    I spent an estimated 4  - 6 hours on this project
