@@ -9,7 +9,7 @@ var geojsonMarkerOptions = {
 
 var map = L.map('map', {
   'center': [37.466513, -77.428683],
-  'zoom': 9,
+  'zoom': 12,
   'layers': [
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       'attribution': 'Map data &copy; OpenStreetMap contributors'

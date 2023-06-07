@@ -36,6 +36,7 @@ The data in the directory should look something like
 
 ```
 
+sample.geojson has sample geojson data based on the json files in /data folder
 
 ## Install needed packages
 npm install .
@@ -54,4 +55,7 @@ Incident Map
 
 # TODO
 
-    Add car incident points
+    Refactor repeating code
+    Add car incident as a polygon possibly
+    Create Rest Api using fast api
+    Data analysis of incidents using python

@@ -1,0 +1,121 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"name": "MEDIA GENERAL - TIMES DISPATCH 333 E FRANKLIN ST Richmond"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.440624, 37.541885]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 acknowledged"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.478753, 37.483656]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 arrived"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.440624, 37.541885]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 available"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.440624, 37.541885]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 cleared"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.478753, 37.483656]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 dispatched"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.478753, 37.483656]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 enroute"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.478753, 37.483656]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA22 H3 ~"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.478753, 37.483656]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "CANDLEWOOD SUITES 4301 COMMERCE RD Richmond"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.428683, 37.466513]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA21 E21 arrived"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.429335, 37.466827]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA21 E21 available"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.429335, 37.466827]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA21 E21 dispatched"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.44481, 37.48786]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "FSTA21 E21 enroute"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.444816, 37.487863]
+		}
+	}]
+}
