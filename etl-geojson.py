@@ -36,4 +36,7 @@ for index in range(number_of_features):
     if index < number_of_features - 1:
         geojson += ","
 geojson += "]}"
-print(geojson)
+
+output_file = open("data.geojson", "w")
+output_file.write(geojson)
+output_file.close()
