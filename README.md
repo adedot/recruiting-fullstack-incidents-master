@@ -50,3 +50,8 @@ http://127.0.0.1:3000/
 
 Incident Map
 ![Sign into Trino Homepage through Postman](leaflet-map-example.png)
+
+
+# TODO
+
+    Add car incident points

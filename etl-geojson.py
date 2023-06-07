@@ -4,18 +4,21 @@ import json
 
 def create_feature(full_address, longitude, latitude):
 
-    # return "{\"type\": \"FeatureCollection\"," + \
-    # "\"features\": [
-    return "{ \"type\": \"Feature\", \"properties\": { \"name\": \""+ full_address+"\"}," +\
-    "\"geometry\": { \"type\" : \"Point\", \"coordinates\" : [" +str(longitude) + "," +str(latitude)+ "]}}"
-  
+    feature =  "{ \"type\": \"Feature\", \"properties\": {"
+    if full_address:
+        feature += "\"name\": \""+ full_address+"\"}," 
+    else: 
+        feature += "\"}," 
+    feature += "\"geometry\": { \"type\" : \"Point\", \"coordinates\" : [" +str(longitude) + "," +str(latitude)+ "]}}"
+    
+    return feature
+
 path = "./data/"
 dir_list = os.listdir(path)
 
 features = []
 for file in dir_list:
     file = path +file
-    # Opening JSON file
     json_file = open(file)
 
     data = json.load(json_file)
@@ -28,6 +31,15 @@ for file in dir_list:
             longitude = data[i].get('longitude')
             latitude = data[i].get('latitude')
             features.append(create_feature(full_address, longitude, latitude ))
+        # if i == 'apparatus':
+
+        #     full_address = data[i][0]["station"] + " " + data[i][0]["unit_id"] 
+        #     status = data[i][0]['unit_status']
+        #     if status.get('acknowledged'):
+        #         full_address +=  " acknowledged"
+        #         longitude = data[i][0]['unit_status']['acknowledged'].get('longitude')
+        #         latitude = data[i][0]['unit_status']['acknowledged'].get('latitude')
+        #     features.append(create_feature("", longitude, latitude ))
 
 
 geojson = "{\"type\": \"FeatureCollection\"," + "\"features\":["
