@@ -1,9 +1,41 @@
 
-
+## Generate geojson
 1. `python3 -m venv env`
 2. `source env/bin/activate`
 3. `python -m pip install --upgrade pip`
 4. `pip install -r requirements.txt`
+5. `python etl-geojson.py`
+
+    data.geojson will be appear in the directory
+
+The data in the directory should look something like
+
+```
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"name": "MEDIA GENERAL - TIMES DISPATCH 333 E FRANKLIN ST Richmond"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.440624, 37.541885]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"name": "CANDLEWOOD SUITES 4301 COMMERCE RD Richmond"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-77.428683, 37.466513]
+		}
+	}]
+}
+
+```
+
 
 ## Install needed packages
 npm install .
@@ -15,3 +47,6 @@ node server.js
 
 http://127.0.0.1:3000/
 
+
+Incident Map
+![Sign into Trino Homepage through Postman](leaflet-map-example.png)

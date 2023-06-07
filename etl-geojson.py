@@ -29,6 +29,7 @@ for file in dir_list:
             latitude = data[i].get('latitude')
             features.append(create_feature(full_address, longitude, latitude ))
 
+
 geojson = "{\"type\": \"FeatureCollection\"," + "\"features\":["
 number_of_features = len(features)
 for index in range(number_of_features):
