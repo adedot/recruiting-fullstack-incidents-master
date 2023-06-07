@@ -62,6 +62,7 @@ If I was given more time, I would do the following:
 * Refactor repeating code
 * Add car incident as a polygon possibly
 * Create Rest Api using fast api
+* Put data in Postgres database using postgis and gdal
 * Data analysis of incidents using python
 
  I spent an estimated 4  - 6 hours on this project
