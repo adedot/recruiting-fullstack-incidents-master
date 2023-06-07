@@ -1,5 +1,4 @@
-###
-
+# Recruiting Take Home Assignment
 
 
 ## Generate geojson
@@ -9,7 +8,7 @@
 4. `pip install -r requirements.txt`
 5. `python etl-geojson.py`
 
-    data.geojson will be appear in the directory
+    data.geojson will be appear in the home directory
 
 The data in the directory should look something like
 
@@ -47,22 +46,22 @@ npm install .
 ## Start map application
 node server.js
 
-# Go to link
+## Go to link
 
 http://127.0.0.1:3000/
 
 
 Incident Map
-![Sign into Trino Homepage through Postman](leaflet-map-example.png)
+![Incident Map](leaflet-map-example.png)
 
 
 # Improvements/TODO items if given more time
 
-    If I was given more time, I would do the following: 
+If I was given more time, I would do the following: 
 
-        * Refactor repeating code
-        * Add car incident as a polygon possibly
-        * Create Rest Api using fast api
-        * Data analysis of incidents using python
+* Refactor repeating code
+* Add car incident as a polygon possibly
+* Create Rest Api using fast api
+* Data analysis of incidents using python
 
-    I spent an estimated 4  - 6 hours on this project
+ I spent an estimated 4  - 6 hours on this project
